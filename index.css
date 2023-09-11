@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullBody{
+    background: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 100vh;
+    display: flex;
+    font-size: large;
+}
+.mainBody{
+    /* border: 2px solid black; */
+    width: max-content;
+    border-radius: 7px;
+    padding: 30px;
+    margin: 6% 180px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 8px 8px;
+    justify-content: center;
+}
+#select{
+    margin-bottom: 10px;
+}
+select{
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.week{
+    background-color: rgb(67, 67, 195);
+    width: 100%;
+    font-size: large;
+    border-radius: 5px;
+}
+.day{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(47, 46, 46);
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.active{
+    background-color: blue;
+}
+.input{
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+}
+.submit{
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px; 
+}
